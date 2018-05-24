@@ -26,8 +26,6 @@ function updateStudentInfo(state, action) {
 
 function studentInfo(state = [], action) {
 	switch (action.type) {
-		case 'ADD_STUDENT_INFO':
-			return addStudentInfo(state, action);
 		case 'UPDATE_STUDENT':
 			return updateStudentInfo(state, action);
 		case 'ADD_STUDENT_INFO':

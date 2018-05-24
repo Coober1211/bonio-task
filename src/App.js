@@ -6,7 +6,7 @@ import ClassPage from './components/ClassPage';
 import NotFound from './components/NotFound';
 
 import { Provider } from 'react-redux';
-import store, { history } from './store';
+import store from './store';
 
 class App extends React.Component {
 	render() {
